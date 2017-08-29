@@ -1,0 +1,9 @@
+
+#Creating a Project
+> mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+#Build the Project
+> mvn package
+
+#To make this as an Eclipse project, in terminal, navigate to project, type this command :
+> mvn eclipse:eclipse
